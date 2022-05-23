@@ -1,14 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f23e339-2501-406a-851b-4f29a4e197c6" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../TextDaily/.idea/TextDaily.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/config_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/config_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/database/__global_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/database/__global_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/database/anhuiApp_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/database/anhuiApp_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/database/anhuiBank.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/database/anhuiBank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/database/anhuiMerchantPC.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/database/anhuiMerchantPC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/database/app_Personal_Center.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/database/app_Personal_Center.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/database/film_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/database/film_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features/anhuiApp_user.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features/anhuiApp_user.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features/anhuiBank.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features/anhuiBank.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features/anhuiMerchantPC.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features/anhuiMerchantPC.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features/cases.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features/film/app_Personal_Center.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features/film/film.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/appLogin.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/c2bPay.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/c2bPay.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/cart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/cart.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/cashier.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/cashier.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/codeReceiver.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/codeReceiver.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/mingyouOrderCancel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/mingyouOrderCancel.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/mingyouOrderDetail.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/mingyouOrderDetail.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/mingyouOrderPay.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/mingyouOrderPay.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/mingyouOrderReceipt.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/mingyouOrderReceipt.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/mingyouOrderRefund.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/mingyouOrderRefund.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/mingyouProductDetail.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/mingyouProductDetail.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/mingyouShouYe.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/mingyouShouYe.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/personSummary.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/personSummary.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/pointOrderDetail.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/pointOrderDetail.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/productFavorite.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/productFavorite.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/shippingReceiver.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/shippingReceiver.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/tuangouComment.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/tuangouComment.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/tuangouOrderCancel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/tuangouOrderCancel.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/tuangouOrderDetail.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/tuangouOrderDetail.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/tuangouOrderPay.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/tuangouOrderPay.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/tuangouOrderRefund.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/tuangouOrderRefund.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/tuangouProductDetail.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/tuangouShouYe.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/tuangouShouYe.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/yushouOrderCancel.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/yushouOrderCancel.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/yushouOrderComplete.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/yushouOrderComplete.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/yushouOrderDetail.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/yushouOrderDetail.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/yushouOrderRefund.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/yushouOrderRefund.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/yushouProductDetail.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/yushouProductDetail.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/yushouShouYe.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/features_app/yushouShouYe.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/static_data/anhuiBank_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/static_data/anhuiBank_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/static_data/anhuiMerchantPC_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/static_data/anhuiMerchantPC_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/static_data/anhuiUserApp_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/static_data/anhuiUserApp_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/static_data/film_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/static_data/film_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/steps/anhuiApp_user_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/steps/anhuiApp_user_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/steps/anhuiBank_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/steps/anhuiBank_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/steps/anhuiMerchantPC_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/steps/anhuiMerchantPC_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/steps/film_stepts.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/steps/film_stepts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/steps/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/steps/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/__global.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/__global.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/__init__env.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/__init__env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/basicSwitch.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/basicSwitch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/connect_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/connect_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/dbUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/dbUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/generatorId.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/generatorId.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/generatorTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/generatorTools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/gitlabUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/gitlabUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/http_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/http_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/jenkinsUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/jenkinsUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/originFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/originFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/python_rsa_mock.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/python_rsa_mock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/randomname.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/randomname.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/readTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/readTools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/redisUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/redisUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/writeTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/writeTools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/study_tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_tasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/GitFroad/TestDoc" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
+  <component name="ProjectId" id="29Y1wKnjp6eX4OZNINNkoqMC9VF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/GitFroad/study_tasks",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\user\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9f23e339-2501-406a-851b-4f29a4e197c6" name="变更" comment="" />
+      <created>1653275441818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653275441818</updated>
+    </task>
+    <servers />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
