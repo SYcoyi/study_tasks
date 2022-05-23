@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9f23e339-2501-406a-851b-4f29a4e197c6" name="变更" comment="">
       <change afterPath="$PROJECT_DIR$/../TextDaily/.idea/TextDaily.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/config_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/config_template.py" afterDir="false" />
@@ -77,7 +79,6 @@
       <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/testing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/writeTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Anhui_eBank_BDD/utils/writeTools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/study_tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study_tasks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +89,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29Y1wKnjp6eX4OZNINNkoqMC9VF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -100,7 +104,6 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "E:/GitFroad/study_tasks",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
@@ -117,9 +120,21 @@
       <option name="presentableId" value="Default" />
       <updated>1653275441818</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1653275612649</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653275612649</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
