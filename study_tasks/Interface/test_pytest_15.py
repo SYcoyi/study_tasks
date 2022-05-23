@@ -1,5 +1,8 @@
 import json
 import requests
+import pytest
+
+# 在Python中使用单引号或双引号是没有区别的
 # url = 'https://baidu.com/s?ie=utf-8&wd=豆瓣250top电影'
 # r = requests.get(url)
 # print(r)
@@ -7,7 +10,6 @@ import requests
 # print("**************************************")
 # print(r.text)
 
-# test1
 # r = requests.get('https://api.github.com/events')
 # print(r.content)
 # r = requests.post('http://httpbin.org/post',data = {'key':'value'})
@@ -111,34 +113,126 @@ import requests
 # r = requests.get('https://api.github.com/events')
 # print(r.content)
 
-# #用fixture实现测试方法级别的setup和teardown的例子
-# #conftest.py的内容
+# 15.040  pytest 执行演示
 # import pytest
-# @pytest.fixture(scope="function",autouse=True)
+#
+#
+# def inc(x):
+#     return x + 1
+#
+#
+# def test_answer():
+#     assert inc(4) == 5
+
+# fixture作为setup的官网例子
+# content of conftest.py
+# import pytest
+# import smtplib
+#
+#
+# @pytest.fixture(scope='module')
+# def smtp_connection():
+#     return smtplib.SMTP('smtp.gmail.com', 587, timeout=5)
+#
+#
+# # content of test_module.py
+# def test_ehlo(smtp_connection):
+#     response, msg = smtp_connection.ehlo()
+#     assert response == 250
+#     assert b'smtp.gmail.com' in msg
+#     assert 0  # for demo purpose
+#
+#
+# def test_noop(smtp_connection):
+#     response, msg = smtp_connection.noop()
+#     assert response == 250
+#     assert 0  # for demo purpose
+#
+
+"""
+如上例子执行顺序：
+1、先找到所有test_开头的文件，称为：测试脚本文件
+2、在测试脚本文件同一级目录下寻找conftest.py,称为测试配置文件
+3、按照随机顺序执行测试脚本文件中的测试方法
+4、执行第一个测试方法，发现有一个传入参数smtp_connection,在测试配置文件中寻找名为smtp_connection的fixture
+5、执行测试配置文件中的smtp_connection方法，保存返回值
+6、把上一步的返回值代入第4步的测试方法传入参数中，执行第一个测试方法
+7、执行第二个测试方法，发现有一个传入参数smtp_connection,在测试配置文件中寻找名为smtp_connection的fixture
+8、发现这个fixture的范围是module，无需重复执行，使用第5步的返回值继续执行第7步的第二个测试方法
+所以其实fixture就相当于这个module的setup方法，并且更加灵活。
+通过修改fixture的scope（值可以为function,class,module,package和session）我们可以给相应的定制不同的fixture。
+同样fixture也可以定义teardown方法。
+如下第4行的return改成了yield,那第五行内容会在测试方法执行结束后运行了，相当于实现了teardown。
+"""
+
+
+# # 例3 在官网例子上增加teardown
+# @pytest.fixture(scope='module')
+# def smtp_connection():
+#     yield smtplib.SMTP('smtp.gmail.com', 587, timeout=5)
+#     print("我是teardown，我在测试方法结束后运行")
+
+# yield的问题
+# def foo():
+#     print("starting...")
+#     while True:
+#         res = yield 4
+#         print("res:", res)
+#
+#
+# g = foo()
+# print(next(g))
+# print("*" * 20)
+# print(next(g))
+
+# 用fixture实现测试方法级别的setup和teardown的例子
+# conftest.py的内容
+# @pytest.fixture(scope="function", autouse=True)
 # def foo():
 #     print("function setup")
 #     yield 100
 #     print("function teardown")
 
 
-# test_1540.py内容
-# import pytest
-#
-#
-# def inc(X):
+# #test_1540.py内容
+# def inc(x):
 #     return x + 1
 #
 #
-# def test_answer_1():
+# def test_answer_1():   # 因为fixture的autouse=True，所以在测试方法的传入参数里可以省略这个fixture的方法名。省略后不可以剩余该fixture的返回值
 #     assert inc(3) == 5
 #
 #
 # def test_answer_2(foo):
-#     print(foo)
-#     assert inc(98) == foo
+#     print('\nfoo的值是：', foo)
+#     print("我是来打印的")
+#     assert inc(10) == foo
 #
 #
-# if __name__ == '__main__':
-#     pytest.main()
+# # if __name__ == '__main__':   # 可省略
+# #     pytest.main()
 
-# 在Python中使用单引号或双引号是没有区别的
+
+# 执行及报告输出
+# @pytest.mark.webtest  # 给test_send_http这个方法单独打上了标签，这样在执行时就可以用标签来执行。命令为： pytest -v -m webtest
+# def test_send_http():
+#     pass
+#
+#
+# def test_something_quick():  # 其他非标签的也可以一起执行 命令为：pytest -v -m "not webtest"
+#     pass
+#
+#
+# def test_another():
+#     pass
+#
+#
+# class TestClass(object):
+#     def test_method(self):
+#         pass
+#
+#     def test_method2(self):
+#         pass
+#
+# # 生成html报告的命令：pytest --html=report\report1.html
+
