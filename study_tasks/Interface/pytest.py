@@ -7,6 +7,7 @@ import requests
 # print("**************************************")
 # print(r.text)
 
+# test
 # r = requests.get('https://api.github.com/events')
 # print(r.content)
 # r = requests.post('http://httpbin.org/post',data = {'key':'value'})
