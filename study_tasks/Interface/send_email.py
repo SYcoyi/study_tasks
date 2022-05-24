@@ -10,16 +10,16 @@
 # ##发件相关的参数
 # smtpserver ="smtp.163.com"#发件服务器
 # port = 25
-# sender = "shiyao0313@163.com"
-# psw = "GEXMPFKQSUZYSXLM"
-# receiver = "shiyao@f-road.com.cn"
+# sender = "XXXX"
+# psw = "XXXXX"
+# receiver = "XXX"
 #
 # ##编辑邮件内容
 # msg = MIMEMultipart()
 #
 # body = '\r\n'.join((      #组合sendmail方法的邮件主体内容，各段以"\r\n"进行分离
 #     "From: %s" %"pytest",
-#     "TO: %s" %"石瑶",
+#     "TO: %s" %"姓名",
 #     "subject: %s" %"pytest_autoSend",
 #     "",
 # ))
@@ -49,11 +49,11 @@ def send_mail():
     smtp_server = 'smtp.163.com'
 
     # 发送邮箱用户名密码
-    user = 'shiyao0313@163.com'##'你的163邮箱名称'
-    password = 'GEXMPFKQSUZYSXLM'#'开启设置的时候复制的登录密码'
+    user = 'XXXX'##'你的163邮箱名称'
+    password = 'XXXX'#'开启设置的时候复制的登录密码'
 
     # 接收邮箱
-    receives ="shiyao@f-road.com.cn" ##['你需要发给的邮箱1', '你需要发给的邮箱2', '你需要发给的邮箱3'...]
+    receives ="XXXX" ##['你需要发给的邮箱1', '你需要发给的邮箱2', '你需要发给的邮箱3'...]
 
     # 发送邮件和主题内容
     subject = 'Auto_test'
